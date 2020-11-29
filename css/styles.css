@@ -228,3 +228,56 @@ body{
     margin: 0;
     padding: 0;
 }
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    position: relative;
+    height: 500px;
+    color: #212121;
+    overflow: hidden;
+  }
+  footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+  }
+  footer .toyfight-logo-flat {
+    margin-top: -200px;
+  }
+  .toyfight-logo-flat {
+    width: 660px;
+    height: 330px;
+    margin: -165px 0 0 -330px;
+    background: url("img/image.svg") no-repeat center center/100%;
+  }
+  .pos-a-center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+  }
+  footer .footer-footer {
+    width: 94%;
+    background-color: #fff;
+    padding: 15px 3% 16px;
+  }
+  .pos-a-b-l {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  footer::after {
+    content: "";
+    background: url("../images/footer-rock.png") no-repeat center center/100%;
+    width: 175px;
+    height: 450px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin-left: -90px;
+  }
