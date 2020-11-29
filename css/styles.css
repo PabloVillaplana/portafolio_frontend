@@ -1,0 +1,230 @@
+body{
+    margin: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    background: black;
+}
+
+@keyframes pulse {
+    0% {
+      color: white;
+    }
+    100% {
+      color: #FF4136;
+    }
+  }
+/* HEADER */
+
+.header_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    height: 15vh;
+}
+
+.header_container h1{
+    font-size: 1em;
+    font-weight: lighter;
+}
+
+.header_menu{
+    padding: 1em;
+}
+
+.header_menu a{
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-size: 0.8rem;
+    margin: 0 14px;
+}
+
+.header_menu a:hover{
+    color: rgb(16, 109, 214);
+    transition: 1s;
+}
+
+/* .header_logo h1:hover{ */
+    /* color: rgb(184, 19, 19); */
+    /* transition: 1s; */
+/* } */
+.header_logo h1{
+    font-weight: bolder;
+    animation: pulse 2s infinite;
+}
+
+/* HERO */
+
+.hero{
+    background: black;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_container{
+    text-align: center;
+}
+
+.hero_container p{
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero_container p:nth-child(2){
+    margin-bottom: 1em;
+}
+
+.hero_container span{
+    color: rgb(184, 19, 19);
+}
+
+.hero_container a{
+    border: 1px solid white;
+    padding: 10px 1em;
+}
+
+.hero_container a:hover{
+    background: rgb(184, 19, 19);
+    border: 1px solid rgb(184, 19, 19);
+}
+
+/* About Us */
+
+.about_us{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1em;
+}
+
+.about_us .item{
+    text-align: center;
+    padding: 0 3em;
+}
+
+.about_icon_container i{
+    font-size: 4em;
+}
+
+.about_icon_container i:hover{
+    color: rgb(184, 19, 19);
+}
+
+/* About Me */
+
+.about_me{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* height: 60vh; */
+    margin: 6vh 0;
+}
+
+.about_me .item:nth-child(1){
+    display: grid;
+    text-align: center;
+    align-content: center;
+    justify-items: center;
+}
+
+.about_me .item:nth-child(1) p{
+    margin: 0;
+    /* padding: 0 14em; */
+}
+
+.about_me .item:nth-child(1) h3{
+    font-size: 2em;
+}
+
+.about_me_us{
+    text-align: center;
+}
+
+.about_me_us h2{
+    padding-bottom: 2em;
+}
+
+/* Tech Bar */
+
+.tech_bar_container{
+    display: flex;
+    background: blue;
+    margin: 1em 0;
+}
+
+.tech_bar_tech{
+    display: flex;
+    background: red;
+    width: 110px;
+    text-align: center;
+    justify-content: center;
+}
+
+.tech_bar{
+    width: 80%;
+    background: gray;
+}
+
+.tech_bar_container span{
+    padding: 0 2em;
+}
+
+/* Portafolio */
+
+.portafolio_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portafolio_container .item a{
+    border: 1px solid white;
+    padding: 10px 1em;
+    text-decoration: none;
+    color: white;
+    border-radius: 30px;
+    margin: 0 2em 0 0;
+}
+
+
+.portafolio_container .item a:hover{
+    background: red;
+    border: 1px solid red;
+}
+
+.portafolio_container .item p{
+    margin-bottom: 3em;
+}
+
+.portafolio_container .item{
+    padding: 2em;
+    text-align: center;
+}
+
+.portafolio_container .item h2{
+    color: red;
+}
+
+.portafolio_container .item img{
+    width: 30em;
+    height: 20em;
+}
+
+.portafolio{
+    text-align: center;
+}
+
+.title_section{
+    font-size: 2em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.title_section_container hr{
+    width: 20%;
+}
+
+.title_section_container h2{
+    margin: 0;
+    padding: 0;
+}
