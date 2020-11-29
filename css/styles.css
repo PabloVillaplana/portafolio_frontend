@@ -254,7 +254,7 @@ footer {
     width: 660px;
     height: 330px;
     margin: -165px 0 0 -330px;
-    background: url("img/image.svg") no-repeat center center/100%;
+    background: url("../images/image.svg") no-repeat center center/100%;
   }
   .pos-a-center {
     position: absolute;
